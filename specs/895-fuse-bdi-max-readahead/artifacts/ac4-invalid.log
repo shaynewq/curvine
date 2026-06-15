@@ -1,0 +1,12 @@
+Starting curvine-fuse with arguments: start
+fuse start success, pid=579534
+Warning: Failed to load config file '/usr/local/workspace/code/component/curvine/build/dist/conf/curvine-cluster.toml': [main] ERROR: fuse.max_readahead_kb must be > 0 when set(curvine-common/src/conf/fuse_conf.rs:205)
+Using default configuration
+2026/06/15 21:45:33.627 INFO cluster_conf.rs:263 allocator: tikv_jemallocator::Jemalloc    
+2026/06/15 21:45:33.627 INFO cluster_conf.rs:264 git version: 34b1a27    
+2026/06/15 21:45:33.628 INFO cluster_conf.rs:265 cluster conf start: 
+format_master = true
+format_worker = true
+testing = false
+cluster_id = "curvine"
+

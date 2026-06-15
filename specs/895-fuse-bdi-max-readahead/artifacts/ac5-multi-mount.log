@@ -1,0 +1,2 @@
+mnt-0 max_readahead_kb = 1024
+mnt-1 max_readahead_kb = 1024
